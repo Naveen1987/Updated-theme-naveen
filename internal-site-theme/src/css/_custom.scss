@@ -59,6 +59,7 @@ body {
 		#navigation {
 			.input-container {
 				position: relative;
+				z-index:9997;
 			}
 
 			.portlet {
@@ -275,6 +276,7 @@ body {
   background: $nav-background;
   width:$content-width;
 	text-align: justify;
+	z-index:9997;
 }
 
 // Container with no padding for navbar
@@ -297,6 +299,7 @@ nav {
     li {
       float: left;
       position: relative;
+			z-index:9997;
       a,
       a:visited {
         display: block;
@@ -330,7 +333,8 @@ nav {
 .nav-dropdown {
   position: absolute;
   display: none;
-  z-index: 1;
+	//If dropdown menu Hiding From portlet
+	z-index:9997;;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
 

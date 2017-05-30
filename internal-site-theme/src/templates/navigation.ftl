@@ -59,7 +59,7 @@
 			</li>
 			<#else>
 			<li>
-			<a class="active" href="${nav_item.getURL()}">${nav_item.getName()}</a>
+			<a href="${nav_item.getURL()}">${nav_item.getName()}</a>
 			</li>
 			</#if>
 			</#list>
