@@ -59,7 +59,7 @@ body {
 		#navigation {
 			.input-container {
 				position: relative;
-				z-index:9997;
+			//	z-index:9997;
 			}
 
 			.portlet {
@@ -276,7 +276,7 @@ body {
   background: $nav-background;
   width:$content-width;
 	text-align: justify;
-	z-index:9997;
+	//z-index:9997;
 }
 
 // Container with no padding for navbar
@@ -299,7 +299,7 @@ nav {
     li {
       float: left;
       position: relative;
-			z-index:9997;
+			//z-index:9997;
       a,
       a:visited {
         display: block;
