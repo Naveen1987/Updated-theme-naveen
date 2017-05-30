@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE layout-templates PUBLIC "-//Liferay//DTD Layout Templates 7.0.0//EN" "http://www.liferay.com/dtd/liferay-layout-templates_7_0_0.dtd">
+
+<layout-templates>
+	<custom>
+		<layout-template id="2-row-layout-naveen" name="2-row-layout-naveen">
+			<template-path>/2_row_layout_naveen.tpl</template-path>
+			<thumbnail-path>/2_row_layout_naveen.png</thumbnail-path>
+		</layout-template>
+	</custom>
+</layout-templates>

@@ -420,3 +420,18 @@ nav {
     }
   }
 }
+
+//Signout Button Colors
+.btn-danger {
+        background-color: #e0706c;
+        color: white;
+        border-color: #e0706c;
+        border-radius: 25px;
+    }
+    .btn-danger:hover,
+    .btn-danger:focus,
+    .btn-danger:active {
+        background-color:#a82824;
+        color: white;
+        border-color: #a82824;
+}

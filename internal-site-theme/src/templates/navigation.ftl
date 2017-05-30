@@ -11,7 +11,7 @@
 			 <li>
 				 <a style="cursor: pointer;">Unità Operative</a>
  <ul class="nav-dropdown">
-		 <li><a  href="/group/farmacia_ospedalieraIs/welcome">Farmacia OspedalieraIs</a></li>
+		 <li><a  href="/group/farmacia_ospedaliera/welcome">Farmacia Ospedaliera</a></li>
 		 <li><a  href="/group/staff_sistemi_snformativi/welcome" >Staff Sistemi Informativi</a></li>
 		 <li><a  href="/group/sviluppo_e_formazione/welcome" >Sviluppo e Formazione</a></li>
 		 <li><a  href="/group/controllo_di_gestione/welcome" >Controllo di Gestione</a></li>
@@ -41,11 +41,8 @@
  <li><a href="/group/rapporti_e_dati/welcome" >Rapporti e Dati</a></li>
  <li><a href="/group/accrediatmento_e_controlli/welcome" >Accrediatmento e Controlli</a></li>
  <li><a href="/group/cartella_clinica/welcome" >Cartella Clinica</a></li>
-
-
 				 </ul>
 			 </li>
-
 			<#list nav_items as nav_item>
 			<#if nav_item.getName() == site_name>
 			<#elseif nav_item.hasChildren()>

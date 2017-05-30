@@ -44,7 +44,7 @@
 					</button>
 
 					<div class="pull-right user-personal-bar">
-						<table><tr><td><@liferay.user_personal_bar /></td><td>&nbsp;<a class="btn btn-warning" href="/c/portal/logout">Signout</a></td></tr></table>
+						<table><tr><td><@liferay.user_personal_bar /></td><td>&nbsp;<a class="btn btn-danger" style="backgroud-color:red" href="/c/portal/logout">Signout</a></td></tr></table>
 					</div>
 				</#if>
 			</div>
